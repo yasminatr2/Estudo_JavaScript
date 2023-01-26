@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo Javascript</title>
+</head>
+<body>
+     <!-- INICIANDO PROJETO UM --->
+     <script>
+   //  console.log('sou top!');
+var nome= 'Yasmin'
+console.log(nome);
+console.log(nome.length);
+console.log(nome.toUpperCase());
+console.log(nome.toLowerCase());
+
+console.log(nome.indexOf('as'));
+console.log(nome.replace('Yasmin', 'programadora'));
+
+var canal='     programador a bordo';
+console.log(canal);
+
+console.log(canal.trim());
+
+// OPERADORES MATEMATICOS
+console.log ('A operação é', 10+5);
+console.log(5*5);
+console.log(10/2);
+
+console.log(7**2);
+
+console.log(10%3);
+var a =1;
+a=a+1;
+console.log(a);
+a++
+console.log(a);
+console.log(a++);
+console.log(++a);
+
+//true
+
+//false
+
+var a = true;
+console.log(a);
+
+var b = false;
+console.log(b);
+
+console.log('3>5', 3>5);
+console.log('3<5', 3<5);
+
+console.log('5>=5',5>=5);
+
+
+console.log('10 != 10',10 !=10);
+console.log('10 != 5',10 != 5);
+
+console.log('4==4', 4==4);
+console.log('5==4', 5==4);
+
+var nome='yas';
+var nome2='yasm';
+console.log(nome != nome2);
+
+// OPERADORES LOGICOS
+
+var a = true;
+var b=false;
+
+console.log(!a);
+console.log(b);
+console.log('');
+
+var a = true;
+var b=false;
+
+console.log(!a);
+console.log(!b);
+
+console.log(!!!!a);
+console.log(!!!!b);
+
+//uul, undefined, '', false, 0 
+//se negar uma vez vira true se negar duas vezes vira false
+
+console.log(!'');
+
+console.log(null && 'yas');
+console.log('passa' && 0 && 'Dev');
+
+console.log('               ');
+console.log('               ');
+console.log('condiçoes verdadeiras ou falsas               ');
+console.log('               ');
+console.log('               ');
+
+if(true){
+  console.log('hello word');
+}
+{
+  if (false) {
+    console.log('nao vai ser');
+  }
+}
+
+var nota1 = 5;
+var nota2 = 7;
+var media = nota1+nota2;
+
+if (media >=7){
+  console.log('passou');
+} else{
+  console.log('nao passou');
+}
+
+console.log(false ? 'programador' : 'designer');
+
+var idade= 26;
+console.log(idade >= 18? 'maior de idade': 'menor de idade');
+
+// suit case
+
+var cor='amarelo';
+switch(cor){
+  case 'azul':
+    console.log('cor azul');
+    break;
+    case 'amarelo':
+    console.log('cor amarelo');
+    break;
+
+    case 'vermelho':
+    console.log('cor vermelho');
+    break;
+}
+</script>
+</body>
+</html>
