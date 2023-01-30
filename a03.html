@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: bisque;
+        padding: 20px;
+    }
+    button{
+        border-radius: 5px;
+        background-color: brown;
+        font-size: 20px;
+    }
+    p, h2{
+        font-family: monospace;
+        font-size: 20px;
+    }
+
+</style>
+<body>
+<h2>O que o JavaScript pode fazer?</h2>   
+
+<p id = "demo1"> Pode alterar o conteudo HTML</p>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "Alteração Feita"'> CLIQUE AQUI</button> <br> <br>
+<p id = "demo2"> Pode ocultar e mostrar o conteudo HTML</p>
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">OCULTAR</button>
+<button type="button" onclick="document.getElementById('demo2').style.display='block'">MOSTRAR</button>
+
+<p id="x"> Isto é um paragrafo</p>
+<button type="button" onclick="MinhaFuncao()"> MUDAR </button> <br><br>
+
+<button onclick="window.print()">Imprimir esta pagina!</button>
+<script> 
+    function MinhaFuncao(){
+        document.getElementById("x").innerHTML="Paragrafo mudado"
+    }
+   
+    document.write('isto é um documento escrito!' )
+    // <script src="myScript.js">  EXEMPLO SCRIPT EXTERNO
+</script>
+</body>
+</html>

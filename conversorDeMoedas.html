@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversor de moedas</title>
+</head>
+<body>
+<style>
+</style>
+<H2>CONVERSOR DE MOEDAS</H2>
+    <script>
+        var ValorEmCotacao = 5.09;
+        var nome = window.prompt(`Digite o seu nome`)
+        window.alert(`Bem-vindo ${nome}`)
+        var ValorEmDolar =  Number.parseInt(window.prompt(`Digite o valor que deseja converter: `))
+        var ValorEmReal = ValorEmDolar * ValorEmCotacao;
+        window.alert(`O valor em R$${ValorEmDolar}, equivale a ${ValorEmReal} Dólares`)
+    </script>
+</body>
+</html>
